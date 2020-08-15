@@ -1274,4 +1274,205 @@
 		"wide"			"320"
 		"tall"			"150"
 	}
+	
+	"QueueHUDStatus"
+	{
+		"fieldName"				"QueueHUDStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"rs1-5"
+		"ypos"					"1"
+		"zpos"					"1001"
+		"wide"					"200"
+		"tall"					"18"
+		"proportionaltoparent"	"1"
+		"keyboardinputenabled"	"1"
+		"mouseinputenabled"		"0"
+		"alpha"					"100"
+	}
+	
+	MatchSummary
+	{
+		"fieldName" "MatchSummary"
+		"visible" "0"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
+	
+	"QuestNotificationPanel"
+	{
+		"fieldName"	"QuestNotificationPanel"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
+	
+	ItemTestHUDPanel
+	{
+		"fieldName"		"ItemTestHUDPanel"
+		"visible"		"0"
+		"enable"		"1"
+		"xpos"			"5"
+		"ypos"			"10"
+		"wide"			"150"
+		"tall"			"44"
+	}
+	
+	"HudUpgradePanel"
+	{
+		"fieldName"		"HudUpgradePanel"
+		"visible"		"0"
+		"enable"		"1"
+		"xpos"			"c-200"
+		"ypos"			"260"
+		"wide"			"400"
+		"tall"			"160"		
+	}
+	
+	HudSpectatorExtras
+	{
+		"fieldName" "HudSpectatorExtras"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
+	
+	HudMiniGame
+	{
+		"fieldName" "HudMiniGame"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"480"
+	}
+	
+	"HudMenuTauntSelection"
+	{
+		"fieldName" 	"HudMenuTauntSelection"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c-235"
+		"ypos"			"c-52"
+		"ypos_hidef"	"c-42"
+		"ypos_lodef"	"c-42"
+		"wide"			"470"
+		"tall"			"200"
+		"PaintBackgroundType"	"0"
+	}
+	
+	HudMatchStatus
+	{
+		"fieldName"				"HudMatchStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"3"
+		"wide"					"f0"
+		"tall"					"f0"
+	}
+	
+	HudMannVsMachineStatus
+	{
+		"fieldName" "HudMannVsMachineStatus"
+		"visible"	"1"
+		"enabled"	"1"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"1"
+		"wide"		"f0"
+		"tall"		"480"
+		
+		"PaintBackgroundType"	"2"
+	}
+	
+	"ItemAttributeTracker"
+	{
+		"fieldName" 	"ItemAttributeTracker"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f5"
+		"tall"			"f0"
+		"PaintBackgroundType"	"0"
+	}
+	
+	CTFFlagCalloutPanel
+	{
+		"fieldName"		"CTFFlagCalloutPanel"
+		"visible" 		"0"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"40"
+		"tall"	 		"40"
+		"priority"		"40"
+	}
+	
+	"CTFStreakNotice"
+	{
+		"fieldName"		"CTFStreakNotice"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"640"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"0 0 0 0"
+		"PaintBackgroundType"	"0" // rounded corners
+	}
+	
+	HudBossHealth
+	{
+		"fieldName"		"HudBossHealth"
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"c-100"
+		"ypos"			"42"
+		"zpos"			"0"			// draw in front of ammo
+		"wide"			"200"
+		"tall"			"50"
+		"MeterFG"		"Red"
+		"MeterBG"		"Gray"
+	}
+	
+	"HudEurekaEffectTeleportMenu"
+	{
+		"fieldName" 	"HudEurekaEffectTeleportMenu"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c-125"
+		"ypos"			"c-55"
+		"wide"			"250"
+		"tall"			"195"
+		"PaintBackgroundType"	"0"
+	}
+	
+	HudSpellMenu
+	{
+		"fieldName" "HudSpellMenu"
+		"visible" "1"
+		"enabled" "1"
+		"wide"	 "640"
+		"tall"	 "480"
+		"zpos" 	"2"
+		"xpos"			"130"
+		"ypos"			"r61"
+		
+		"TextFont"				"Default"
+		"ItemFont"				"Default"
+		"ItemFontPulsing"		"Default"
+	}
 }
